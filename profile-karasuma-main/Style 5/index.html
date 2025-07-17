@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href='./style.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="main">
+        <div class="profile">
+            <div class="header">
+                <div class="left">
+                    <div class="border">
+                        <img class="avatar" src="https://i.postimg.cc/K82XMFc4/6ef1d7c72c6f8931d07e-11.jpg">
+                    </div>
+                </div>
+                <div class="right">
+                    <span class="realname">Vinh Trần</span>
+                </div>
+            </div>
+            <div class="content">
+                <span class="title">Nickname</span>
+                <span class="nickname">Karasuma</span>
+                <span class="title">Bio</span>
+                <span class="describe">
+                    Newbie Cosplayer<br>
+                    Front-End Developer<br>
+                    Application Developer (weak)<br>
+                </span>
+                <span class="title">App</span>
+                <div class="list">
+                    <div class="app" id="facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>  
+                        <span class="link"><a href="https://www.facebook.com/vinht.k.6">vinht.k.6</a></span>
+                    </div>
+                    <div class="app" id="instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <span class="link"><a href="https://www.instagram.com/karasumavinh">karasumavinh</a></span>
+                    </div>
+                    <div class="app" id="tiktok">
+                        <ion-icon name="logo-tiktok"></ion-icon>
+                        <span class="link"><a href="https://www.tiktok.com/@zinhh_108">@zinhh_108</a></span>
+                    </div>
+                    <!-- <div class="app" id="locket">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <span class="link"><a href="https://locket.camera/links/UBbmaXfqtK44AZrR6">locket/links/UBbmaXfqtK44AZrR6</a></span>
+                    </div> -->
+                    <div class="app" id="github">
+                        <ion-icon name="logo-github"></ion-icon>
+                        <span class="link"><a href="https://github.com/karasuma-vinhtran">karasuma-vinhtran</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="coder">Project by <a href="https://vinhtran-karasuma.netlify.app/">Vinh Tran (Karasuma)</a></span>
+    </div>
+    <script>
+        if (document.querySelector("#main span.coder")) {} else {document.querySelector("body").innerText=decodeURIComponent("Mu%E1%BB%91n%20s%E1%BB%AD%20d%E1%BB%A5ng%20profile%2C%20vui%20l%C3%B2ng%20gi%E1%BB%AF%20nguy%C3%AAn%20th%C6%B0%C6%A1ng%20hi%E1%BB%87u%20t%C3%A1c%20gi%E1%BA%A3%20(d%C3%B2ng%2061%20trong%20file%20html)%20ho%E1%BA%B7c%20copy%20%C4%91o%E1%BA%A1n%20m%C3%A3%20sau%20n%E1%BA%BFu%20x%C3%B3a%20nh%E1%BA%A7m%20r%E1%BB%93i%20paste%20v%C3%A0o%20tr%C3%AAn%20tag%20%3C%2Fdiv%3E%20%E1%BB%9F%20tr%C3%AAn%20tag%20%3Cscript%3E%20(d%C6%B0%E1%BB%9Bi%20d%C3%B2ng%2060)%2C%20%C4%91o%E1%BA%A1n%20m%C3%A3%3A%20%3Cspan%20class%3D%22coder%22%3EProject%20by%20%3Ca%20href%3D%22https%3A%2F%2Fvinhtran-karasuma.netlify.app%2F%22%3EVinh%20Tran%20(Karasuma)%3C%2Fa%3E%3C%2Fspan%3E")}
+        colorBG = getComputedStyle(document.documentElement).getPropertyValue("--background-color")
+        if (colorBG == "#000" || colorBG == "#000000" || colorBG.includes("rgb(0,0,0)") || colorBG.includes("rgba(0,0,0")) {document.querySelector("#main span.coder").style.color = "#ffffff"}
+    </script>
+</body>
+
+</html>
