@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const cursorElement = document.getElementById('typing-cursor');
   
   const usernameVariants = [
-    "c0mplex", 
-    "Front-end Developer",
-    "Currently learning Back-end",
-    "To Yeu Cau ♥︎"
+    "Nongg-LyLongg 🦈", 
+    "Code-Sleep-Repeat",
+    "Newbie Coder",
+    "Coding love♥︎"
   ];
   
   let currentText = '';
